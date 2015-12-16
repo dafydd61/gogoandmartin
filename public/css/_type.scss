@@ -1,0 +1,16 @@
+a {
+	border-bottom: 1px solid transparent;
+	&,
+	&:focus,
+	&:visited {
+		color: $link-color;
+		text-decoration: none;
+	}
+	&:hover {
+		color: $link-color-hover;
+		border-bottom-color: lighten($link-color-hover, 25%);
+		&.social-link {
+			border-bottom-color: transparent;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+$fa-font-path:        "../bower_components/font-awesome/fonts";
+$base-font-size: 18px;
+$base-text-color: #404040;
+$link-color: lighten($base-text-color, 10%);
+$link-color-hover: lighten($link-color, 10%);
+$palm-end: 600px;
+$lap-end: 768px;
+
+$lap-start: $palm-end + 1;
+$desk-start: $lap-end + 1;
