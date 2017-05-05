@@ -3,6 +3,7 @@ const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 const sass = require('gulp-sass');
 const concat = require('gulp-concat');
+const rename = require('gulp-rename');
 const browserSync = require('browser-sync').create();
 
 const scripts = [
